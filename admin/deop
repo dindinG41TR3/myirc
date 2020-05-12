@@ -1,0 +1,4 @@
+/msg chanserv deop #channelname
+
+Perintah diatas merupakan untuk menjadikan user yang mempunyai akses operator agar sign out (exit menjadi
+operator) dari channel tersebut.
