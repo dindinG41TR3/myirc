@@ -1,1 +1,4 @@
 /msg chanserv op #channelname
+
+Perintah diatas merupakan untuk menjadikan user yang mempunyai akses operator agar sign
+ke dalam channel tersebut.
