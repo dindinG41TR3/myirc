@@ -1,0 +1,18 @@
+1. Connect to Freenode IRC Network and join channel #freeznc
+To connect to Freenode IRC Network you can use WEBCHAT or your favorite IRC Client.
+Server: irc.freenode.org
+Port: 6667
+SSL Port: 6697
+mIRC Example: /server -m irc.freenode.org
+
+
+2. Register your nickname and confirm it.
+/NICKSERV register (password) (email)
+Then check you mail for the VERIFY code.
+To confirm your nickname: /NICKSERV VERIFY REGISTER (nickname) (code)
+
+3. Send "request" to our service bot with nickname "freeznc".
+/msg freeznc request (e-mail) (Network name) (IRCServer[:[+]Port]) [vhost]
+[Port] and [vhost] are NOT required parameters
+[+] before [Port] is used for SSL connection
+In order to see the available vhosts please send /msg freeznc vhosts 
