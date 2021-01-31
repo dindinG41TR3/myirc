@@ -1,0 +1,7 @@
+ Menambahkan Log Chat di IRC Channel contoh channel #xentaoslinux
+
+* Menambahkan Log Chat di IRC Channel #xentaoslinux
+* Cara Menambahkan Log Chat dengan menginvite globbot oleh Op ke dalam channelnya
+  /invite globbot
+  
+  Hasil dari Logchat bisa di cek di https://freenode.logbot.info/xentaoslinux/
