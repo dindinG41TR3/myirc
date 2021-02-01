@@ -7,13 +7,34 @@ Server: irc.freenode.net
 Port: 6667
 SSL Port: 6697
 
-2. Register your nickname and confirm it.
-/NICKSERV register (password) (email)
-Then check you mail for the VERIFY code.
-To confirm your nickname: /NICKSERV VERIFY REGISTER (nickname) (code)
+Jika di IRSSI
+Langkahnya adalah sebagai berikut :
+/connect freenode
+/j #freeznc
 
-3. Send "request" to our service bot with nickname "freeznc".
+2. Daftarkan Nick dan Konfirmasikan.
+/NICKSERV register (password) (email)
+Silahkan Buka Email yang didaftarkan untuk Verifikasi.
+dan Untuk Konfimasi Nick yang didaftarkan gunakan perintah berikut: 
+
+/NICKSERV VERIFY REGISTER (nickname) (code)
+Contoh
+/NICKSERV VERIFY REGISTER dindinG41TR3 43RFR5454
+
+3. Mengirimkan "request" ke server bot dari "freeznc".
+
 /msg freeznc request (e-mail) (Network name) (IRCServer[:[+]Port]) [vhost]
+Contoh
+/msg freeznc request dindin_hernawan@yahoo.com freenode irc.freenode.net:+6667 pust.vsegda.budet.freeznc.ru
+akan terlihat seperti ini jika sudah mendaftarkan :
+(12:07:39 PM) freeznc: You already have an account.
+
+Keterangan :
 [Port] and [vhost] are NOT required parameters
 [+] before [Port] is used for SSL connection
-In order to see the available vhosts please send /msg freeznc vhosts 
+Untuk melihat Virtual Host yang tersedia gunakan perintah:
+
+/j #freeznc
+/msg freeznc vhosts 
+Maka akan terlihat :
+(12:05:10 PM) freeznc: To see a list of all available vhosts, please visit https://freeznc.ru/#vhosts
