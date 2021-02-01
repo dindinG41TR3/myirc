@@ -1,10 +1,11 @@
-1. Connect to Freenode IRC Network and join channel #freeznc
-To connect to Freenode IRC Network you can use WEBCHAT or your favorite IRC Client.
-Server: irc.freenode.org
+1. Sambungkan ke Jaringan Freenode IRC dan bergabung di channel #freeznc
+Untuk terhubung ke jaringan IRC dengan server Freenode maka dibutuhkan aplikasi
+atau client IRC seperti IRSSI untuk terminal GNU/Linux atau Pidgin Client Lintas Platform.
+
+Konfigurasinya Sebagai Berikut :
+Server: irc.freenode.net
 Port: 6667
 SSL Port: 6697
-mIRC Example: /server -m irc.freenode.org
-
 
 2. Register your nickname and confirm it.
 /NICKSERV register (password) (email)
