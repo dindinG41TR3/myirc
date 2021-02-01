@@ -1,0 +1,19 @@
+1. Untuk membuat nick
+Gunakan perintah berikut :
+
+/Nick nickyangmau
+
+Keterangan :
+Silahkan ganti 'nickyangmau' dengan nick yang diinginkan
+
+Contoh
+/Nick dindinG41TR3
+
+2. Daftarkan Nick dan Konfirmasikan.
+/NICKSERV register (password) (email)
+Silahkan Buka Email yang didaftarkan untuk Verifikasi.
+dan Untuk Konfimasi Nick yang didaftarkan gunakan perintah berikut: 
+
+/NICKSERV VERIFY REGISTER (nickname) (code)
+Contoh
+/NICKSERV VERIFY REGISTER dindinG41TR3 43RFR5454
