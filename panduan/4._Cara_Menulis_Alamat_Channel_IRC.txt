@@ -1,0 +1,7 @@
+1. Untuk Penulisan Alamat IRC bisa secara langsung seperti halnya penulisan alamat website.
+Contoh Untuk Menulis Alamat IRC Channel dari Xenta OS Linux
+
+irc://irc.freenode.net/xentaoslinux
+
+Keterangan :
+* Ganti xentaoslinux sesuai channel yang diinginkan.
