@@ -1,3 +1,3 @@
 # myirc
 Catatan belajar Chat IRC.  
-Join Chat IRC Channel #xentaoslinux Server Freenode 
+Join Chat IRC Channel #hacktrackgnulinux Server Libera.chat 
